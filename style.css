@@ -6,6 +6,7 @@ body {
 
 .order {
     display: flex;
+
 }
 
 .order-left {
@@ -19,7 +20,7 @@ body {
 }
 
 .title {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 800;
     line-height: 70px;
     letter-spacing: -0.02em;
@@ -41,12 +42,49 @@ body {
 
 .order-left p {
     margin-bottom: 50px;
+    line-height: 25px;
 }
 
 .order-right {
-    width: 50%
+    width: 50%;
 }
 
 .order-image {
-    width: 550px
+    width: 550px;
+}
+
+.about {
+    display: flex;
+    margin-top: 80px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+
+    align-items: center;
+}
+
+.about h2 {
+    font-weight: 800;
+}
+
+.about-left {
+    width: 50%;
+
+}
+
+.about-right p {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.about-image {
+    width: 300px;
+    margin-left: 150px;
+
+}
+
+.about-right {
+    width: 50%;
+    padding-right: 100px;
 }
